@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.hero {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Net\ hero.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav button{
+    background-color: red;
+    color: white;
+     border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.container {
+    height: 45px;
+    width: 130px;
+}
+
+.logo {
+    background-image: url(netflix-logo-png-large.png);
+
+    height: 100%;
+    width: 180px;
+    background-size: cover;
+}
+
+.hero span {
+    padding: 15px;
+}
+
+
+
+.hero> :first-child {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.hero>:nth-child(2) {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero> :nth-child(3) {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(71, 71, 72);
+}
+
+.main input {
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btngo {
+    
+    background-color: red;
+    padding: 3px 24px;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    margin: 51px;
+    border: none;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    align-items: center;
+}
+
+
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 9;
+}
+
+.secimg video {
+    position: absolute;
+    width: 450px;
+    top: 85px;
+    right: 35px;
+}
+
+.img2 video {
+    height: 350px;
+    width: 350px;
+    top: -45px;
+    right: 100px;
+
+}
+
+.one { 
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: white;
+}
+
+.faqbox{
+    color: white;
+    width: 50%;
+}
+
+.question{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 15px;
+    background-color: gray;
+
+}
